@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #09AC22;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.container{
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.img{
+  width: 100vw;
+  height: 300px;
+  background-image: url(../img/bbn.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container-quote{
+  width: 95vw;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.p-quote{
+  color: #09AC22;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.p-author{
+  margin-top: 10px;
+  color:white;
+  padding: 30px;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: end;
+}
+
+.container-button{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} 
+
+.btn-increment{
+  width: 200px;
+  background-color: #09AC22;
+  color: white;
+  border-radius: 15px;
+  border: 1px solid #09AC22 ;
+  padding: 12px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn-decrement {
+  margin-top: 25px;
+  width: 200px;
+  background-color: #09AC22;
+  color: white;
+  border-radius: 15px;
+  border: 1px solid #09AC22 ;
+  padding: 12px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
