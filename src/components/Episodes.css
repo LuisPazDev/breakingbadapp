@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: #09AC22;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.container{
+  width: 95vw;
+  height: 100vh;
+  padding: 5px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.img-episodes{
+  margin-top: 40px;
+  width: 250px;
+  height: 300px;
+  background-image: url(../img/bblogo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.container-episodes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-title{
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.p-episodes{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color:white;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.container-button{
+  height: 20px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} 
+
+.btn-increment{
+  width: 200px;
+  background-color: #09AC22;
+  color: white;
+  border-radius: 15px;
+  border: 1px solid #09AC22 ;
+  padding: 12px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn-decrement {
+  margin-top: 15px;
+  width: 200px;
+  background-color: white;
+  color: #09AC22 ;
+  border-radius: 15px;
+  border: 1px solid #09AC22 ;
+  padding: 12px;
+  font-size: 20px;
+  font-weight: bold;
+}
+

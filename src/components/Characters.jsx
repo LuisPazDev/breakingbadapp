@@ -50,9 +50,5 @@ export const Characters = () => {
     } 
     </div>
 
-
-
-
-
   )
 };
