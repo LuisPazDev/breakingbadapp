@@ -1,9 +1,9 @@
 import { useFetch } from "../hooks/useFetch";
 import { useState } from "react";
-import '../components/BreakingBadApp.css'
+import '../components/Quotes.css'
 
 
-export const BreakingBadApp = () => {
+export const Quotes = () => {
 
   const [ counter, setCounter ] = useState(1);
 

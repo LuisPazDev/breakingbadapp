@@ -1,12 +1,12 @@
-import { BreakingBadApp } from './components/BreakingBadApp';
+import { Characters } from './components/Characters';
 
 function App() {
 
   return (
     <>
-      <BreakingBadApp />
+      <Characters />
     </>
-  );
+  )
 };
 
 export default App;
