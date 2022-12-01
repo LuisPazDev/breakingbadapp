@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/breakingbadapp/static/css/main.3259e9a3.css",
-    "main.js": "/breakingbadapp/static/js/main.0eddc347.js",
+    "main.js": "/breakingbadapp/static/js/main.ba8b37b9.js",
     "static/media/bb1.jpg": "/breakingbadapp/static/media/bb1.3bc69b30db2c76104f90.jpg",
     "static/media/BreakingBad.jpeg": "/breakingbadapp/static/media/BreakingBad.5bf9d1d16eb7123b3afc.jpeg",
     "static/media/bblogo.png": "/breakingbadapp/static/media/bblogo.f3f1877a9f9d153425f1.png",
     "index.html": "/breakingbadapp/index.html",
     "main.3259e9a3.css.map": "/breakingbadapp/static/css/main.3259e9a3.css.map",
-    "main.0eddc347.js.map": "/breakingbadapp/static/js/main.0eddc347.js.map"
+    "main.ba8b37b9.js.map": "/breakingbadapp/static/js/main.ba8b37b9.js.map"
   },
   "entrypoints": [
     "static/css/main.3259e9a3.css",
-    "static/js/main.0eddc347.js"
+    "static/js/main.ba8b37b9.js"
   ]
 }
