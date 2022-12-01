@@ -27,11 +27,10 @@ return (
               <p className="p-title">{ data[0].title } </p> 
               <h5> Season: </h5>
               <p className="p-episodes">{ data[0].season } </p>
-              <h5> Date: </h5>
-              <p className="p-episodes"> { data[0].air_date } </p>
               <h5> Cap: </h5>
               <p className="p-episodes"> { data[0].episode } </p>
-          
+              <h5> Released: </h5>
+              <p className="p-episodes"> { data[0].air_date } </p>
             <div className="container-button">
               <button className="btn-increment" onClick={ nextEpisode }
               > Next </button> 
