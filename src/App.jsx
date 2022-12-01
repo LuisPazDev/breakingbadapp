@@ -10,7 +10,7 @@ function App() {
 
   return (
       <Routes>
-        <Route path='breakingbadapp/' element={<Layout />} >
+        <Route path='/' element={<Layout />} >
           <Route index element={<Home />} />
           <Route path='quotes' element={<Quotes />} />
           <Route path='characters' element={<Characters />} />
